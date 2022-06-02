@@ -4,7 +4,6 @@ import reportWebVitals from './reportWebVitals';
 import { ApolloClient, ApolloProvider, HttpLink, InMemoryCache } from '@apollo/client';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
-import secret from './secret.json';
 import Example from './Example';
 import update from 'immutability-helper';
 import { PropertyFindAll_propertyQuery_properties } from './__generated__/PropertyFindAll';
