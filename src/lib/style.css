@@ -1,0 +1,25 @@
+
+.Vg-column {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .Vg-row {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .Vg-cell:hover{
+    cursor: pointer;
+  }
+  
+
+  .Vg-cell-noclick.Vg-cell:hover{
+    cursor: initial;
+  }
+
+  .Vg-row.Vg-list{
+    display:block;
+  }
