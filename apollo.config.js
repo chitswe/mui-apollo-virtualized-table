@@ -1,7 +1,7 @@
 module.exports = {
     client: {
       service: {
-        name: 'github',
+        name: 'heinproperty',
         url: 'https://heinproperty.com/graphql',
         skipSSLValidation: true,
       }

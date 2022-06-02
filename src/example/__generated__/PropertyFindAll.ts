@@ -3,7 +3,7 @@
 // @generated
 // This file was automatically generated and should not be edited.
 
-import { PropertyWhereInput, PropertyOrderByInput, PaginationInput } from "./../../__generated__/globalTypes";
+import { PropertyWhereInput, PropertyOrderByInput, PaginationInput } from "./../../../__generated__/globalTypes";
 
 // ====================================================
 // GraphQL query operation: PropertyFindAll
@@ -69,6 +69,7 @@ export interface PropertyFindAll_propertyQuery_properties {
 }
 
 export interface PropertyFindAll_propertyQuery {
+  id: string | null;
   properties: PropertyFindAll_propertyQuery_properties | null;
 }
 

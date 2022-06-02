@@ -1,7 +1,13 @@
 
 build/
 public/
-src/
+src/types/
+src/example/
+src/index.tsx
+src/logo.svg
+src/react-app-env.d.ts
+src/reportWebVitals.ts
+src/setupTests.ts
 .gitignore
 .babelrc
 apollo.config.js

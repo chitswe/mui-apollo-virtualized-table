@@ -1,6 +1,6 @@
 {
   "name": "mui-apollo-virtualized-table",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React Material-UI table with virtual scrolling, dynamic column, dynamic layout and ApolloClient as GraphQL client. ",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

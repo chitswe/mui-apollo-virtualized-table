@@ -1,6 +1,6 @@
 import * as React from "react";
-import { GridColumn, CheckBoxColumnMode, ListItemRenderProps } from "./lib/VirtualizedGrid";
-import ApolloVirtualizedGrid, { ApolloListResult, ApolloVirtualizedGridProps } from "./lib";
+import { GridColumn, CheckBoxColumnMode, ListItemRenderProps } from "../lib/VirtualizedGrid";
+import ApolloVirtualizedGrid, { ApolloListResult, ApolloVirtualizedGridProps } from "../lib";
 import query from "./graphql";
 import { PropertyFindAll, PropertyFindAllVariables, PropertyFindAll_propertyQuery_properties_edges } from "./__generated__/PropertyFindAll";
 import update from "immutability-helper";

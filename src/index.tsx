@@ -4,9 +4,9 @@ import reportWebVitals from './reportWebVitals';
 import { ApolloClient, ApolloProvider, HttpLink, InMemoryCache } from '@apollo/client';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
-import Example from './Example';
+import Example from './example/Example';
 import update from 'immutability-helper';
-import { PropertyFindAll_propertyQuery_properties } from './__generated__/PropertyFindAll';
+import { PropertyFindAll_propertyQuery_properties } from './example/__generated__/PropertyFindAll';
 
 
 const authFetch = (input: RequestInfo, init: RequestInit = {}) => {
